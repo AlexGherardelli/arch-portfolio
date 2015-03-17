@@ -9,7 +9,22 @@ h1, h2, h3, h4, h5, h6
 font-family: 'Droid Sans', sans-serif;
 }
 
-nav.navbar-default {
-  background-color: #333;
-  border-color: #e7e7e7;
+
+
+.intro-section{
+	text-align: center;
+	color: #fff;
+	background-attachment: scroll;
+	background-image: url(http://placehold.it/1980x1020);
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+footer {
+background:black;
+
 }
