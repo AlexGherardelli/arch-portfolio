@@ -1,13 +1,29 @@
 body 
 {
-font-family: 'Open Sans', sans-serif;
-
+	font-family: 'Noto Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6
 {
-font-family: 'Droid Sans', sans-serif;
+	font-family: 'Merriweather', sans-serif;	
 }
+#intro h1
+{
+	font-size: 550%;
+	color: white;
+	font-weight: 700;
+}
+
+#intro h3
+{
+	font-size: 500%;
+	color: white;
+	font-weight: 700;
+
+
+}
+
+
 
 
 
@@ -15,7 +31,7 @@ font-family: 'Droid Sans', sans-serif;
 	text-align: center;
 	color: #fff;
 	background-attachment: scroll;
-	background-image: url(http://placehold.it/1980x1020);
+	background-image: url("../images/architect-mod.jpg");
 	background-position: center center;
 	background-repeat: none;
 	-webkit-background-size: cover;
@@ -23,6 +39,17 @@ font-family: 'Droid Sans', sans-serif;
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+#services-menu ul{
+	font-size: 1.063em;
+	list-style-type: none;
+	padding-top: 50px;
+
+}
+
+
+
+
 
 footer {
 background:black;
