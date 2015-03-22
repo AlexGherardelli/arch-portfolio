@@ -1,0 +1,24 @@
+.btn {
+	font-size: 100%;
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.85);
+	color: #FFF;
+	border-color: transparent;
+	height: 3.7em;
+	line-height: 3.7em;
+	border-radius: 1px;
+	padding: 0px 4em;
+	display: inline-block;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+	border: 0px none;
+	outline: 0px none;
+	margin-top: 6em;
+}
+
+.btn:hover {
+  background: #fffff;
+  color: black;
+  text-decoration: none;
+}
