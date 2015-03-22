@@ -1,29 +1,38 @@
+/* GENERAL STYLING */
+
 body 
 {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Merriweather', sans-serif;	
 }
+
+
+
+
+/* HOME PAGE STYLING*/
+
 #intro h1
 {
-	font-size: 550%;
+	font-size: 6vw;	
 	color: white;
 	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
 }
 
 #intro h3
 {
-	font-size: 500%;
+	font-size: 2.5vw;	
 	color: white;
 	font-weight: 700;
 
 
 }
-
-
 
 
 
@@ -55,3 +64,8 @@ footer {
 background:black;
 
 }
+footer ul li {
+display: inline-block;
+
+}
+
