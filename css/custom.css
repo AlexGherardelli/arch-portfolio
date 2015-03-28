@@ -1,14 +1,22 @@
 /* GENERAL STYLING */
 
-body 
+html, body
 {
 	font-family: 'Noto Sans', sans-serif;
+	background: #ecede7;
 }
 
 
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Merriweather', sans-serif;	
+	font-family: 'Merriweather', sans-serif;
+	
+}
+h2{
+	font-size: 2.5vw;
+	text-transform: uppercase;
+
+
 }
 
 
@@ -16,9 +24,11 @@ h1, h2, h3, h4, h5, h6
 
 /* HOME PAGE STYLING*/
 
+
+/******** INTRO *******/
 #intro h1
 {
-	font-size: 6vw;	
+	font-size: 8vw;	
 	color: white;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -34,31 +44,64 @@ h1, h2, h3, h4, h5, h6
 
 }
 
-
-
 .intro-section{
 	text-align: center;
-	color: #fff;
 	background-attachment: scroll;
-	background-image: url("../images/architect-mod.jpg");
+	background-image: url("../images/architect-mod1.jpg");
 	background-position: center center;
 	background-repeat: none;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
 }
 
-#services-menu ul{
+
+/***** SERVICES ******/
+.services-section {
+    height: 100%;
+    padding-top: 4em;
+    text-align: center;
+
+}
+
+
+
+#services-menu {
 	font-size: 1.063em;
-	list-style-type: none;
-	padding-top: 50px;
+	padding-top: 4em;
+
+}
+#services-menu h4
+{
+	padding-top: 2em;
+	font-weight: bold;
+}
+
+
+/****** ABOUT ******/
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
 
 }
 
 
+/****** CONTACT ******/
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+
+}
 
 
+/****** FOOTER *****/
 
 footer {
 background:black;
@@ -68,4 +111,10 @@ footer ul li {
 display: inline-block;
 
 }
+
+
+
+
+
+
 
