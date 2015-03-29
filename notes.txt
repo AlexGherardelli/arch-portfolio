@@ -13,3 +13,19 @@ Campfire palette
 #F2AE72 // Orange
 #D96459 // Dark orange
 #8C4646 // dark red
+
+Cactus palette
+--------------
+#F48A2E // Orange
+#EF7731 // Darker orange
+#F16A3E // Dark orange
+#1A1A3E // Blue
+#101326 // Purple
+
+Mystere palette
+--------------
+#F5BA0D // Yellow
+#F2A308 // Darker yellow
+#C0561A // Orange
+#01583C // Green
+#591E09 // Brown
