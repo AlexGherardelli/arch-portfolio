@@ -42,7 +42,7 @@ h2{
 }
 .navbar-right
 {
-	font-size: 1.3em;
+	font-size: 1.109em;
 	color:white;
 }
 .navbar-default .navbar-nav > li > a {
@@ -61,7 +61,7 @@ h2{
 /******** INTRO *******/
 #intro h1
 {
-	font-size: 5.5em;
+	font-size: 5em;
 	color: white;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -70,7 +70,7 @@ h2{
 
 #intro h3
 {
-	font-size: 3.5em;
+	font-size: 3vh;
 	color: white;
 	font-weight: 700;
 }
@@ -92,9 +92,23 @@ h2{
 }
 @media only screen and (max-device-width: 480px) {
 	#intro h1{
-		font-size: 3.5em;
+		font-size: 5vh;
 	}
 }
+
+.btn{
+	background: transparent;
+	font-family: 'Roboto', sans-serif;
+	font-size: 110%;
+	border-color: white;
+	border-width: 3px;
+	padding: 10px 25px 10px 25px;
+	margin-top: 30px;
+	color: white;
+
+}
+
+
 
 /***** SERVICES ******/
 .services-section {
