@@ -1,25 +1,58 @@
 /* GENERAL STYLING */
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	outline: 0px none;
+	font-size: inherit;
+	color: inherit;
+	letter-spacing: inherit;
+	list-style: outside none none;
+}
 
-html, body
+body
 {
-	font-family: 'Noto Sans', sans-serif;
-	background: #ecede7;
+	font-family: 'Roboto', sans-serif;
+	background: white;
+	font-size: 16px;
+	position: relative;
 }
 
 
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Merriweather', sans-serif;
-	
+
 }
 h2{
-	font-size: 2.5vw;
+	font-size: 3.5em;
 	text-transform: uppercase;
 
 
 }
 
+/* NAVBAR */
+.navbar{
+	background: #333;
+	
+}
 
+.navbar-fixed-top {
+	border-width: 0px;
+}
+.navbar-right
+{
+	font-size: 1.3em;
+	color:white;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+	color:white;
+	background-color: #01544a
+}
 
 
 /* HOME PAGE STYLING*/
@@ -28,7 +61,7 @@ h2{
 /******** INTRO *******/
 #intro h1
 {
-	font-size: 8vw;	
+	font-size: 5.5em;
 	color: white;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -37,52 +70,65 @@ h2{
 
 #intro h3
 {
-	font-size: 2.5vw;	
+	font-size: 3.5em;
 	color: white;
 	font-weight: 700;
-
-
 }
 
 .intro-section{
 	text-align: center;
 	background-attachment: scroll;
-	background-image: url("../images/architect-mod1.jpg");
+	background-image: url("../images/floor.png");
 	background-position: center center;
 	background-repeat: none;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	
+
 	height: 100%;
     padding-top: 150px;
     text-align: center;
 }
-
+@media only screen and (max-device-width: 480px) {
+	#intro h1{
+		font-size: 3.5em;
+	}
+}
 
 /***** SERVICES ******/
 .services-section {
-    height: 100%;
-    padding-top: 4em;
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	margin-bottom: 100px;
+
+
+}
+
+.service-section #services-menu {
+	font-size: 1.063em;
+	margin-top: 50px;
+	color:#2B2E31
+
+}
+.service-section #services-menu h4
+{
+	
+	padding-top: 2em;
+	font-size: 2.04rem;
+
+}
+
+/*******PORTFOLIO ************/
+.portfolio-section{
+	height: 100%;
+    padding-top: 150px;
     text-align: center;
 
 }
 
 
-
-#services-menu {
-	font-size: 1.063em;
-	padding-top: 4em;
-	color:#2B2E31
-
-}
-#services-menu h4
-{
-	padding-top: 2em;
-	font-size: 2.04rem;
-
-}
 
 
 /****** ABOUT ******/
@@ -113,10 +159,3 @@ footer ul li {
 display: inline-block;
 
 }
-
-
-
-
-
-
-
