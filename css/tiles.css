@@ -4,6 +4,9 @@
     float:left;
     margin:5px;
     padding:5px;
+	color: white;
+	font-weight: 700;
+
 
 }
 
@@ -12,24 +15,28 @@
     width:410px;
 
 }
-
-.yellow{
-    background:#F5BA0D;
-}
- 
-.dark-yellow{
-    background:#F2A308;  
-}
-
 .orange{
     background:#C0561A ;
 }
  
 .brown{
-	background:#591E09;
+	background:#8C4646;
 }
 
 .green{
 	background: #01583C;
 }
+
+.yellow{
+    background:#F5BA0D;
+}
+ 
+.purple{
+    background:#101326;  
+}
+
+#project2{
+	background-image: url("http://lorempixel.com/output/city-q-c-200-200-7.jpg")
+}
+
 

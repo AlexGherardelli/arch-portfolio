@@ -25,7 +25,8 @@ h1, h2, h3, h4, h5, h6
 
 }
 h2{
-	font-size: 3.5em;
+	font-size: 200%;
+	padding-bottom: 50px;
 	text-transform: uppercase;
 
 
@@ -42,7 +43,7 @@ h2{
 }
 .navbar-right
 {
-	font-size: 1.109em;
+	font-size: 105%;
 	color:white;
 }
 .navbar-default .navbar-nav > li > a {
@@ -59,21 +60,7 @@ h2{
 
 
 /******** INTRO *******/
-#intro h1
-{
-	font-size: 5em;
-	color: white;
-	font-weight: 700;
-	text-transform: uppercase;
-	display: inline-block;
-}
 
-#intro h3
-{
-	font-size: 3vh;
-	color: white;
-	font-weight: 700;
-}
 
 .intro-section{
 	text-align: center;
@@ -85,15 +72,38 @@ h2{
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-
 	height: 100%;
-    padding-top: 150px;
     text-align: center;
+	padding-bottom: 100px;
 }
-@media only screen and (max-device-width: 480px) {
-	#intro h1{
-		font-size: 5vh;
-	}
+
+#intro h1
+{
+	font-size: 400%;
+	color: #F2A308 ;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+@media(max-width: 480px) {
+  #intro h1 {
+    font-size: 32pt;
+  }
+}
+
+
+#intro h3
+{
+	font-size: 200%;
+	color: white ;
+	font-weight: 700;
+}
+
+@media(max-width: 480px) {
+  #intro h3 {
+    font-size: 20pt;
+  }
 }
 
 .btn{
@@ -108,40 +118,53 @@ h2{
 
 }
 
+.btn:hover {
+  background: #fffff;
+  color: black;
+  text-decoration: none;
+}
+
+
+
 
 
 /***** SERVICES ******/
 .services-section {
 	height: 100%;
-    padding-top: 150px;
     text-align: center;
-	margin-bottom: 100px;
-
-
+	padding: 100px 0px 0px 0px;
+	margin: 0px;
 }
 
 .service-section #services-menu {
-	font-size: 1.063em;
-	margin-top: 50px;
-	color:#2B2E31
+
+	color:#2B2E31;
+	margin: 10px;
 
 }
 .service-section #services-menu h4
 {
 	
-	padding-top: 2em;
-	font-size: 2.04rem;
+	font-size: 100%;
 
 }
+
 
 /*******PORTFOLIO ************/
 .portfolio-section{
 	height: 100%;
-    padding-top: 150px;
+	padding: 100px 0px 0px 0px;
+	margin: 0px;
     text-align: center;
 
 }
 
+@media(max-width: 480px) {
+	.portfolio-section{
+		padding-top: 250px;
+	
+	}
+}
 
 
 
