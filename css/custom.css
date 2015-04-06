@@ -48,10 +48,20 @@ a:active {
 
 /* NAVBAR */
 .navbar{
-	background: #333;
+	background: transparent;
+	border: none;
 	
 }
+.navbar-default{
+	box-shadow: 0px 1px 0px transparent inset, 0px 1px 5px transparent;
+}
 
+
+.top-nav-collapse{
+	background: #333;
+	opacity: 1;
+
+}
 .navbar-fixed-top {
 	border-width: 0px;
 }
