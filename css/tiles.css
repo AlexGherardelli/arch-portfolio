@@ -6,10 +6,7 @@
     padding:5px;
 	color: white;
 	font-weight: 700;
-
-
 }
-
 .tile-long{
 
     width:410px;
@@ -22,21 +19,39 @@
 .brown{
 	background:#8C4646;
 }
-
 .green{
 	background: #01583C;
 }
-
 .yellow{
-    background:#F5BA0D;
+	background:#F5BA0D;
 }
- 
 .purple{
     background:#101326;  
 }
+@media(max-width:480px)
+{
+	.tile{
+		height: 6em;
+		width: 6em;
+		font-size: 12pt;		
+	}
 
-#project2{
-	background-image: url("http://lorempixel.com/output/city-q-c-200-200-7.jpg")
 }
+
+
+@media (min-width: 481px) and (max-width:980px)
+{
+	.tile{
+		height: 9em;
+		width: 9em;
+		font-size: 12pt;		
+	}
+
+}
+
+
+
+
+
 
 
