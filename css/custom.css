@@ -99,8 +99,7 @@ a:active {
 	-o-background-size: cover;
     text-align: center;
 	padding-bottom: 100px;
-	display:flex;
-	flex-wrap: wrap;
+
 
 }
 
@@ -113,11 +112,7 @@ a:active {
 	display: inline-block;
 }
 
-@media(max-width: 480px) {
-  #intro h1 {
-    font-size: 32pt;
-  }
-}
+
 
 
 #intro h3
@@ -127,11 +122,6 @@ a:active {
 	font-weight: 700;
 }
 
-@media(max-width: 480px) {
-  #intro h3 {
-    font-size: 20pt;
-  }
-}
 
 .btn{
 	background: #F2A308;
@@ -161,7 +151,41 @@ text-shadow: none;
 }
 
 
+/* MOBILE STYLING */
+@media(max-width: 480px) {
+  #intro h1 {
+    font-size: 32pt;
+  }
+    #intro h3 {
+    font-size: 20pt;
+  }
+}
 
+@media (max-width: 480px), (max-height: 500px)
+{
+	.btn.btn-default{
+	font-size: 10pt;
+	padding: 10px;
+	margin-top: 0px;
+  }
+}
+
+@media(max-width: 460px) {
+  #intro h1 {
+    font-size: 27pt;
+  }
+    #intro h3 {
+    font-size: 16pt;
+  }
+
+@media(max-width: 412px) {
+  #intro h1 {
+    font-size: 24pt;
+  }
+    #intro h3 {
+    font-size: 14pt;
+  }
+}
 
 
 
@@ -172,8 +196,7 @@ text-shadow: none;
     text-align: center;
     background: #fff;
 	clear:both;
-	display:flex;
-	flex-wrap: wrap;
+
 
 }
 
@@ -199,8 +222,7 @@ text-shadow: none;
     text-align: center;
     background: #fff;
 	clear: both;
-	display:flex;
-	flex-wrap: wrap;
+
 
 }
 
@@ -214,8 +236,7 @@ text-shadow: none;
     text-align: center;
     background: #fff;
 	clear: both;
-	display:flex;
-	flex-wrap: wrap;
+
 
 }
 
@@ -235,9 +256,6 @@ text-shadow: none;
     text-align: center;
     background: #fff;
 	clear: both;
-	display:flex;
-	flex-wrap: wrap;
-	
 
 }
 
