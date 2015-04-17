@@ -38,23 +38,39 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
-
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+	clear:both;
+	display: inline;	
+
 }
+
+.portfolio-section{
+	background:#F2A308;
+	padding-bottom: 80px;
+	clear:both;
+	display: inline;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+	clear:both;
+	display: inline;
+}
+
+
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background:#c35a3a;
 }
+
+
