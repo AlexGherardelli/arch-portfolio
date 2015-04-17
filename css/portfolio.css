@@ -1,0 +1,78 @@
+.portfolio-section{
+	background:#F2A308;
+	padding-bottom: 80px;
+	
+}
+
+.contact-section{
+	background:#c35a3a;
+}
+
+.tile{
+	height:200px;   
+    width:200px;  
+    float:left;
+    margin:5px;
+    padding:5px;
+	color: white;
+	font-weight: 700;
+}
+.tile-long{
+
+    width:410px;
+
+}
+.one{
+    background-image: url("http://lorempixel.com/output/city-q-c-410-200-9.jpg");
+}
+ 
+.two{
+	background-image: url("http://lorempixel.com/output/nightlife-q-c-200-200-4.jpg");
+}
+.three{
+	background-image: url("http://lorempixel.com/output/city-q-c-200-200-8.jpg");
+}
+.four{
+	background-image: url("http://lorempixel.com/output/nightlife-q-c-200-200-7.jpg");
+}
+.five{
+    background-image: url("http://lorempixel.com/output/nightlife-q-c-200-200-3.jpg");  
+}
+.six{
+	background-image:url("http://lorempixel.com/output/city-q-c-200-200-4.jpg");
+}
+.seven{
+	background-image: url("http://lorempixel.com/output/city-q-c-410-200-10.jpg");
+}
+.eight{
+    background-image: url("http://lorempixel.com/output/city-q-g-200-200-3.jpg");
+}
+
+/* MOBILE SETTINGS */
+@media(max-width:480px)
+{
+	.tile{
+		height: 6em;
+		width: 6em;
+		font-size: 12pt;		
+	}
+
+}
+
+
+@media (min-width: 481px) and (max-width:980px)
+{
+	.tile{
+		height: 9em;
+		width: 9em;
+		font-size: 12pt;		
+	}
+
+}
+
+
+
+
+
+
+

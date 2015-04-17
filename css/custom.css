@@ -1,91 +1,83 @@
-/* GENERAL STYLING */
-*{
-	margin: 0;
-}
-
+/************************************** GENERAL STYLING */
 body{
+    width: 100%;
+    height: 100%;
 	font-family: 'Roboto', sans-serif;
 	background: white;
 	font-size: 16px;
-    width: 100%;
-    height: 100%;
+	margin: 0;
 }
 .container{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -0em;
-	
 }
-
-
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Merriweather', sans-serif;
-
 }
 h2{
 	font-size: 200%;
 	padding-bottom: 50px;
 	text-transform: uppercase;
+	font-weight: 700;
+
 }
-
-
 a:link{
 	text-decoration:none;
 }
-
 a:visited {
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: none;
 }
-
 a:active {
     text-decoration: none;
 }
 
-/* NAVBAR */
+/************************************** NAVBAR */
 .navbar{
 	background: transparent;
 	border: none;
-	
 }
 .navbar-default{
 	box-shadow: 0px 1px 0px transparent inset, 0px 1px 5px transparent;
 }
-
-
 .top-nav-collapse{
 	background: #333;
 	opacity: 1;
-
 }
-.navbar-fixed-top {
+.navbar-fixed-top{
 	border-width: 0px;
 }
-.navbar-right
-{
+.navbar-right{
 	font-size: 105%;
 	color:white;
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
 }
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
-{
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
 	color:white;
 	background-color: #F2A308 ;
 }
+@media(min-width:767px){
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/************************************** HOME PAGE STYLING*/
 
 
-/* HOME PAGE STYLING*/
-
-
-/******** INTRO *******/
-
-
+/*********************** INTRO *******/
 .intro-section{	
 	height: 100%;
 	text-align: center;
@@ -99,30 +91,21 @@ a:active {
 	-o-background-size: cover;
     text-align: center;
 	padding-bottom: 100px;
-
-
+    padding-top: 150px;
 }
-
-#intro h1
-{
+#intro h1{
 	font-size: 400%;
 	color: #F2A308 ;
 	font-weight: 700;
 	text-transform: uppercase;
 	display: inline-block;
 }
-
-
-
-
 #intro h3
 {
 	font-size: 200%;
 	color:#333;
 	font-weight: 700;
 }
-
-
 .btn{
 	background: #F2A308;
 	font-family: 'Roboto', sans-serif;
@@ -132,16 +115,12 @@ a:active {
 	padding: 10px 25px 10px 25px;
 	margin-top: 30px;
 	color: white; 
-
 }
 .btn-default{
 text-shadow: none;
 }
-
-
 .btn-default:focus, .btn-default:hover {
     background-color: white;
-    
 }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
     color: #F2A308;
@@ -151,7 +130,7 @@ text-shadow: none;
 }
 
 
-/* MOBILE STYLING */
+/*************  MOBILE STYLING */
 @media(max-width: 480px) {
   #intro h1 {
     font-size: 32pt;
@@ -187,126 +166,9 @@ text-shadow: none;
   }
 }
 
-
-
-/***** SERVICES ******/
-.services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-	clear:both;
-	display:inline;
-
-
-}
-
-.service-section #services-menu {
-
-	color:#2B2E31;
-	margin: 10px;
-
-}
-.service-section #services-menu h4
-{
-	
-	font-size: 100%;
-
-}
-
-
-
-/*******PORTFOLIO ************/
-.portfolio-section{
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-	clear: both;
-	display:inline;
-
-}
-
-
-
-
-/****** ABOUT ******/
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-	clear: both;
-	display:inline;	
-
-
-}
+/**************** ABOUT ******/
 
 #profile-img{
 	padding-top: 10px;
-
-
 }
-
-
-
-/****** CONTACT ******/
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-	margin-bottom: 150px;
-    text-align: center;
-    background: #fff;
-	clear: both;
-	display:inline;
-}
-
-
-
-
-/****** FOOTER *****/
-
-footer {
-	background:#333;
-	color: white;
-	font-weight: bold;
-	font-size: 2.5vh;
-	width:100%;
-    height:40px;
-    background-attachment: scroll;
-    background-position: 0% 0%;
-    position: fixed;
-    bottom: 0pt;
-    left: 0pt;
-	clear:both;
-
-}
-footer p{
-	display:inline-block;
-	padding: 10px;
-}
-
- #social-media i{
-	display:inline-block;
-	padding: 5px;
-}
-
-a .fa{
-	color: white;
-
-}
-
-@media(max-width:980px)
-{
-	footer{
-		height: 4vh;
-	}
-	footer p{
-		padding: 0px;
-		margin: 0px;
-		
-	}
-}
-
-
 
