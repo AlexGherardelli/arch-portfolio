@@ -1,0 +1,52 @@
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.intro-section {
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.services-section {
+	padding: 100px 0 100px 0;
+    text-align: center;
+    background: #fff;
+	clear:both;
+	display: block;	
+}
+
+.portfolio-section{
+    padding-top: 100px;
+    text-align: center;
+	background:#F2A308;
+	clear:both;
+
+}
+
+.about-section {
+    padding-top: 100px;
+    text-align: center;
+	background: white;
+	clear:both;
+	display: inline;
+}
+
+
+
+.contact-section {
+    padding-top: 100px;
+    text-align: center;
+    background:#c35a3a;
+}
+
+
