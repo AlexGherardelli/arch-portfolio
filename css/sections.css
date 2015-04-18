@@ -15,6 +15,7 @@
     padding-top: 150px;
     text-align: center;
     background: #fff;
+	display: block;
 }
 
 .services-section {
@@ -26,7 +27,8 @@
 }
 
 .portfolio-section{
-    padding-top: 100px;
+    padding: 100px 0 80px 0;
+	margin-bottom: 100px;
     text-align: center;
 	background:#F2A308;
 	clear:both;
@@ -34,7 +36,6 @@
 }
 
 .about-section {
-    padding-top: 100px;
     text-align: center;
 	background: white;
 	clear:both;
@@ -42,11 +43,5 @@
 }
 
 
-
-.contact-section {
-    padding-top: 100px;
-    text-align: center;
-    background:#c35a3a;
-}
 
 
