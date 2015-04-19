@@ -39,14 +39,16 @@
     text-align: center;
 	background: white;
 	clear:both;
-	display: inline;
+	display: block;
 }
 
 .contact-section{
 	text-align: center;
 	background: #c35a3a;
+	padding-bottom: 50px;
 	clear:both;
 	display: block;
+	
 }
 
 
