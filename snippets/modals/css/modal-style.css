@@ -1,0 +1,15 @@
+#btn-close-modal {
+	width:100%;
+	text-align: center;
+	cursor:pointer;
+	color:#fff;
+}
+.modal-content{
+	background-color: transparent;
+	background-clip: none;
+	border: 0px;
+	border-radius: 0px;
+	outline: 0px none;
+	box-shadow: none;
+
+}

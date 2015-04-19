@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>DEMOS</title>
+		
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		
+		<!-- animatedModals -->		
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/portfolio.css">
+		<link rel="stylesheet" href="css/modal-style.css">
+		
+
+    </head>
+    <body>
+
+        <!--Call your modal-->
+<section id="portfolio" class="portfolio-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="row text-center">
+						<h2> PORTFOLIO </h2>
+					</div>
+					<!-- Portfolio modal snippet *COPY FROM HERE*-->
+					<div class="container-fluid">
+						<div class="row center-block">
+							<div class="col-md-12 ">
+								<a id="projectA" href="#projectOne">
+								<div class="col-xs-4 col-md-4 tile tile-long one"> One</div> </a>
+								<a id="projectB" href="#animatedModal">
+								<div class="col-xs-1 col-md-1 tile two">Two</div>
+								</a>
+						
+							</div>
+						</div>
+					</div>
+					<!-- Portfolio modal snippet end *COPY UNTIL HERE*-->
+					
+					
+					
+				</div>
+			</div>
+		</div>
+</section>
+								
+			<!-- second modal -->
+            <li><a id="demo02" href="#modal-02">DEMO02</a></li>
+
+      
+<!-- Portfolio Modals -->  
+        <!--Project One-->
+        <div id="projectOne">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-projectOne"> 
+                CLOSE MODAL <!-- insert button here -->
+            </div>
+                
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+				<p>Here some content </p>
+            </div>
+        </div>
+
+        <!--DEMO02-->
+        <div id="modal-02">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-02"> 
+                CLOSE MODAL
+            </div>
+            
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+            </div>
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/animatedModal.min.js"></script>
+        <script>
+
+            //Project One
+            $("#projectA").animatedModal({
+				modalTarget: 'projectOne',
+				color: '#c35a3a',
+
+			});
+
+            //demo 02
+            $("#demo02").animatedModal({
+                modalTarget:'modal-02',
+                animatedIn:'lightSpeedIn',
+                animatedOut:'bounceOutDown',
+				animationDuration:'.3s', 
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
+            });
+
+        </script>
+
+    </body>
+</html>
