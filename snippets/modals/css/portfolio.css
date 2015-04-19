@@ -14,7 +14,7 @@
 }
 
 .one{
-    background-image: url("http://placehold.it/200x410");
+    background-image: url("https://placeimg.com/410/200/arch/sepia");
 }
  
 .two{
@@ -33,11 +33,11 @@
 	background-image:url("http://lorempixel.com/output/city-q-c-200-200-4.jpg");
 }
 .seven{
-	background-image: url(""http://placehold.it/200x410");
+	background-image: url("https://placeimg.com/410/200/arch");
 }
 
 .eight{
-	background-image: url(""http://placehold.it/200x200");
+	background-image: url("https://placeimg.com/200/200/arch");
 }
 
 /* MOBILE SETTINGS */
@@ -91,14 +91,17 @@
 }
 .modal-content h1, h2, h3, h4, h5, h6{
 	font-family: 'Merriweather', sans-serif;
+	font-weight: 800;
 	color: #C35A3A;
 }
-.modal-content h4{
+.modal-content h5{
 	font-style: italic;
+	font-weight: 400;
 }
 
 .project-image{
 	margin: 0 auto;
+	padding: 50px 0 30px 0;
 }
 
 .btn-close-modal{
@@ -107,3 +110,5 @@
 .fa-times-circle{
 	color:#333;
 }
+
+
