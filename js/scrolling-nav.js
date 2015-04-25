@@ -17,3 +17,12 @@ $(function() {
         event.preventDefault();
     });
 });
+
+
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".logo").addClass("logo-small");
+    } else {
+        $(".logo").removeClass("logo-small");
+    }
+});
