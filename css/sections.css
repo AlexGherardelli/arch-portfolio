@@ -54,11 +54,25 @@
 	
 }
 
+.contact-section #contact-form{
+	padding: 30px;
+}
+
 #map-canvas {
-		padding-left: 15px;
+		margin: 0 auto;
         width: 450px;
         height: 350px;
+		display: block;
       }
-
+	  
+@media(max-width: 460px)
+{
+	#map-canvas{
+		margin: 0 auto;
+		width: 300px;
+		height: 300px;
+		display:block;
+	}
+}
 
 

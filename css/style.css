@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Lobster', cursive;
 }
 h2{
-	font-size: 250%;
+	font-size: 300%;
 	padding-bottom: 50px;
 	font-weight: 700;
 }
@@ -108,14 +108,14 @@ a:active {
     padding-top: 150px;
 }
 #intro h1{
-	font-size: 600%;
+	font-size: 650%;
 	color: #F2A308 ;
 	font-weight: 700;
 	display: inline-block;
 }
-#intro h3
+#intro h2
 {
-	font-size: 250%;
+	font-size: 270%;
 	color:#333;
 
 }
@@ -123,11 +123,11 @@ a:active {
 	background: transparent;
 	font-family: 'Lato', sans-serif;
 	font-size: 110%;
-	border-color: #C35A3A;
+	border-color:  	#f22e08;
 	border-width: 3px;
 	padding: 10px 25px 10px 25px;
-	margin-top: 30px;
-	color: #C35A3A; 
+	margin-top: 10px;
+	color:  	#f22e08; 
 }
 .btn-default{
 text-shadow: none;
@@ -136,10 +136,10 @@ text-shadow: none;
     background-color: white;
 }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
-    color: #C35A3A;
+    color: 	#f22e08;
     background-color: white;
 	opacity: 0.5;
-    border-color: #C35A3A;
+    border-color:  	#f22e08;
 }
 
 
@@ -147,9 +147,9 @@ text-shadow: none;
 /*************  MOBILE STYLING */
 @media(max-width: 480px) {
   #intro h1 {
-    font-size: 32pt;
+    font-size: 35pt;
   }
-    #intro h3 {
+    #intro h2 {
     font-size: 20pt;
   }
 }
@@ -165,17 +165,17 @@ text-shadow: none;
 
 @media(max-width: 460px) {
   #intro h1 {
-    font-size: 27pt;
+    font-size: 40pt;
   }
-    #intro h3 {
+    #intro h2 {
     font-size: 16pt;
   }
 
 @media(max-width: 412px) {
   #intro h1 {
-    font-size: 24pt;
+    font-size: 35pt;
   }
-    #intro h3 {
+    #intro h2 {
     font-size: 14pt;
   }
 }
