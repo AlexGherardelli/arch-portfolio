@@ -13,31 +13,21 @@
     width:410px;
 }
 
-.one{
-    background-image: url("https://placeimg.com/410/200/arch/sepia");
-}
- 
-.two{
-	background-image: url("https://placeimg.com/200/200/arch/sepia");
-}
-.three{
-	background-image: url("http://lorempixel.com/output/city-q-c-200-200-8.jpg");
-}
-.four{
-	background-image: url("http://lorempixel.com/output/nightlife-q-c-200-200-7.jpg");
-}
-.five{
-    background-image: url("http://lorempixel.com/output/nightlife-q-c-200-200-3.jpg");  
-}
-.six{
-	background-image:url("http://lorempixel.com/output/city-q-c-200-200-4.jpg");
-}
-.seven{
-	background-image: url("https://placeimg.com/410/200/arch");
+.img-portfolio{
+    position:absolute;
+    left:0;
+    top:0;	
 }
 
-.eight{
-	background-image: url("https://placeimg.com/200/200/arch");
+.portfolio-text{
+	z-index:100;
+    position:relative; 
+	text-align: center;
+}
+
+.tile:hover{
+	background-color: #8C4646;
+	opacity: 0.5;
 }
 
 /* MOBILE SETTINGS */
@@ -61,6 +51,7 @@
 	}
 
 }
+
 
 
 .portfolio-section h2{
@@ -89,10 +80,10 @@
 	color: #333;
 
 }
-.modal-content h1, h2, h3, h4 {
+.modal-content h2 {
 	font-family: 'Fredericka the Great', cursive;
 	font-weight: 800;
-	color: #C35A3A;
+	color: #B44937;
 	padding-bottom: 0px;
 }
 .modal-content h4{

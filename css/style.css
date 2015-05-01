@@ -23,8 +23,9 @@ h1, h2, h3, h4, h5, h6{
 }
 h2{
 	font-size: 300%;
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 	font-weight: 700;
+	color: #B44937;
 }
 a:link{
 	text-decoration:none;
@@ -125,11 +126,11 @@ a:active {
 	background: transparent;
 	font-family: 'Lato', sans-serif;
 	font-size: 110%;
-	border-color:  	#f22e08;
+	border-color:  #B44937;
 	border-width: 3px;
 	padding: 10px 25px 10px 25px;
 	margin-top: 10px;
-	color:  	#f22e08; 
+	color:  	#B44937; 
 }
 .btn-default{
 text-shadow: none;
@@ -138,12 +139,11 @@ text-shadow: none;
     background-color: white;
 }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
-    color: 	#f22e08;
+    color: 	#B44937;
     background-color: white;
 	opacity: 0.5;
-    border-color:  	#f22e08;
+    border-color:  	#B44937;
 }
-
 
 
 

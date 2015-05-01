@@ -2,6 +2,14 @@
 COLOR FOR WEBSITE 
 ==================
 
+Ciro Palette
+-----------------------------------
+#F2A308 Yellow
+#B44937 Coral
+#333333 Grey
+E77F2F Alternative yellow
+
+
 #c3c2be // GREY
 #2b2a27 //DARK GREY
 

@@ -21,10 +21,10 @@
 		
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/sections.css">
-
 		<link rel="stylesheet" href="css/footer.css">
-		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/portfolio.css">
+		<link rel="stylesheet" href="css/style.css">
+
 
 		<!-- Google Maps API v3 -->
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
@@ -153,14 +153,26 @@
 						<div class="row center-block">
 							<div class="col-md-12 ">
 								<a id="projectA" href="#projectOne">
-									<div class="col-xs-4 col-md-4 tile tile-long one"> One</div> 
+									<div class="col-xs-4 col-md-4 tile tile-long"> 
+										<img src="https://placeimg.com/410/200/arch/sepia" class="img-responsive img-portfolio">
+										<p class="portfolio-text"> One <p>
+									</div> 
 								</a>
 								<a id="projectB" href="#projectTwo">
-								<div class="col-xs-1 col-md-1 tile two">Two</div></a>
+								<div class="col-xs-1 col-md-1 tile two">
+										<img src="https://placeimg.com/200/200/arch" class="img-responsive img-portfolio">
+										<p class="portfolio-text"> Two </p>
+								</div></a>
 								<a id ="projectC" href="#projectThree">
-								<div class="col-xs-1 col-md-1 tile three">Three</div></a>
+								<div class="col-xs-1 col-md-1 tile">
+									<img src="http://lorempixel.com/output/city-q-c-200-200-8.jpg" class="img-responsive img-portfolio">
+									<p class="portfolio-text"> Three </p>
+								</div></a>
 								<a id="projectD" href="#projectFour">
-								<div class="col-xs-1 col-md-1 tile four"> Four </div> </a>
+								<div class="col-xs-1 col-md-1 tile"> 
+									<img src="http://lorempixel.com/output/nightlife-q-c-200-200-7.jpg" class="img-responsive img-portfolio">
+									<p class="portfolio-text"> Four </p>
+								</div> </a>
 							
 						
 							</div>
@@ -169,15 +181,29 @@
 						<div class="row center-block">
 							<div class="col-md-12 col-xs-12">
 								<a id="projectE" href="#projectFive">
-								<div class="col-xs-1 col-md-1 tile five">Five</div></a>
+								<div class="col-xs-1 col-md-1 tile">
+								<img src="http://lorempixel.com/output/nightlife-q-c-200-200-3.jpg" alt="" class="img-responsive img-portfolio">
+								<p> Five </p>
+								
+								</div></a>
 								<a id="projectF" href="#projectSix">
-								<div class="col-xs-1 col-md-1 tile six">Six</div>
+								<div class="col-xs-1 col-md-1 tile">
+								<img src="http://lorempixel.com/output/city-q-c-200-200-4.jpg" alt="" class="img-responsive img-portfolio">
+								<p> Six </p>
+								</div>
 								</a>
 								<a id="projectG" href="#projectSeven">
-								<div class="col-xs-4 col-md-4 tile tile-long seven">Seven</div>
+								<div class="col-xs-4 col-md-4 tile tile-long">
+								<img src="https://placeimg.com/410/200/arch" alt="" class="img-responsive img-portfolio">
+								<p> Seven </p>								
+								</div>
 								</a>
 								<a id="projectH" href="#projectEight">
-								<div class="col-xs-1 col-md-1 tile eight">Eight</div>
+								<div class="col-xs-1 col-md-1 tile">
+								<img src="https://placeimg.com/200/200/arch" alt="" class="img-responsive img-portfolio">
+								<p> Eight </p>								
+								
+								</div>
 								</a>
 							</div>	
 						</div>
@@ -229,7 +255,7 @@
 				<div class="row text-center">
 				<h2>Contattami!</h2>
 				<div class="col-md-4" id="contact-form">
-					<form name="sentMessage" id="contactForm" novalidate="">
+					<form name="sentMessage" class="text-left " id="contactForm" novalidate="">
 						<label for="name">Nome</label>
 						<input type="text" class="form-control" placeholder="Nome" id="name" required=""
 						data-validation-required-message="Per favore inserisci il tuo nome" >
@@ -239,7 +265,7 @@
 						data-validation-required-message="Per favore inserisci la tua email" >
 							<p class="help-block text-danger"></p>
 						<p class="help-block text-danger"></p>
-						<label for="message"></label>
+						<label for="message">Messaggio</label>
 						<textarea class="form-control" placeholder="Il tuo messaggio" id="message" required=""
 						data-validation-required-message="Per favore inserisci il tuo messaggio"></textarea>
 							<p class="help-block text-danger"></p>
@@ -563,6 +589,7 @@
 	<script src="js/jquery.easing.min.js"></script>
 	<script src="js/scrolling-nav.js"></script>
 	<!-- PORTFOLIO SNIPPET JS *COPY FROM HERE*-->
+
 		<script src="js/animatedModal.min.js"></script>
 		<script>
 
