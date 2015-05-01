@@ -37,3 +37,5 @@ Mystere palette
 #C0561A // Orange
 #01583C // Green
 #591E09 // Brown
+
+font-family: 'Philosopher', sans-serif;
