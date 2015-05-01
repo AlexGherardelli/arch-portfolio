@@ -57,6 +57,9 @@
 .contact-section #contact-form{
 	padding: 30px;
 }
+.contact-section label{
+	color: white;
+}
 
 #map-canvas {
 		margin: 0 auto;
