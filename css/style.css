@@ -19,7 +19,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Lobster', cursive;
+	font-family: 'Fredericka the Great', cursive;
 }
 h2{
 	font-size: 300%;
@@ -108,10 +108,12 @@ a:active {
     padding-top: 150px;
 }
 #intro h1{
+	font-family: 'Philosopher', sans-serif;
+	font-weight: 700;
 	font-size: 650%;
 	color: #F2A308 ;
-	font-weight: 700;
 	display: inline-block;
+
 }
 #intro h2
 {
