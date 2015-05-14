@@ -9,7 +9,7 @@ body{
     height: 100%;
 	font-family: 'Lato', sans-serif;
 	background: white;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0;
 }
 .container{
@@ -109,7 +109,7 @@ a:active {
     padding-top: 150px;
 }
 #intro h1{
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Lobster', sans-serif;
 	font-size: 650%;
 	color: #F2A308 ;
 	display: inline-block;
@@ -118,9 +118,10 @@ a:active {
 }
 #intro h2
 {
-	font-family: 'Lobster', cursive;
-	font-weight: 400;
+	font-family: 'Lato', cursive;
+	font-weight: 300;
 	font-size: 270%;
+	padding-top: 0;
 	color:#333;
 
 }
