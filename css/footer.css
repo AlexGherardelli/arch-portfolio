@@ -4,10 +4,10 @@ footer {
 	color: white;
 	font-size: 80%;
 	width:100%;
-    height:40px;
+    height: auto;
     background-attachment: scroll;
     background-position: 0% 0%;
-    position: fixed;
+	display: block;
     bottom: 0pt;
     left: 0pt;
 	clear:both;
@@ -15,12 +15,13 @@ footer {
 }
 footer p{
 	display:inline-block;
-	padding: 10px;
+	padding-top: 10 px;
+	margin: 10px;
 }
 
  #social-media i{
 	display:inline-block;
-	padding: 5px;
+	padding: 20px 5px 0px 5px;
 }
 
 a .fa{
@@ -31,7 +32,7 @@ a .fa{
 @media(max-width:980px)
 {
 	footer{
-		height: 4vh;
+		height: auto;
 	}
 	footer p{
 		padding: 0px;
@@ -39,6 +40,10 @@ a .fa{
 		
 	}
 }
+
+
+
+
 
 
 

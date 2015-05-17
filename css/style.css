@@ -142,8 +142,8 @@ a:active {
 	font-size: 110%;
 	border-color:  white;
 	border-width: 3px;
-	padding: 10px 25px 10px 25px;
-	margin-top: 15px;
+	padding: 10px 40px;
+	margin-top: 40px;
 	color:  	white; 
 }
 .btn-default{
@@ -158,6 +158,11 @@ text-shadow: 0px 2px 3px #333;
 	opacity: 0.5;
     border-color:  	#CA4C08;
 }
+
+#contatti h2{
+	color: #ffffff;
+}
+
 
 
 

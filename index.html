@@ -31,7 +31,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
         <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Philosopher|Lato:300,400,400italic,900|Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900|Lobster' rel='stylesheet' type='text/css'>
         
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,7 +57,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="images/logo_white.png" class="img-responsive logo"/>
+                   <img src="images/logo_white-shadow.png" class="img-responsive logo">
                 </a>
             </div>
 
@@ -96,8 +96,10 @@
                     <h2> Architettura, rendering &amp; design</h2>
                     <!-- button -->
 				</div>
-				<div class="col-md-12">
-                    <a class="btn btn-default page-scroll" href="#portfolio">Visualizza progetti</a>
+				<div class="col-md-12" id="btn-home">
+                    <a class="btn btn-default page-scroll btn-home"  href="#portfolio">Visualizza progetti<br/>
+
+					</a>
 				</div>
                 
             </div>
@@ -155,64 +157,87 @@
                     <div class="container-fluid">
                         <div class="row center-block">
                             <div class="col-md-12 ">
-                                <a id="projectA" href="#projectOne">
-                                    <div class="col-xs-4 col-md-4 tile tile-long"> 
-                                        <img src="https://placeimg.com/410/200/arch/sepia" class="img-responsive img-portfolio">
-                                        <p class="portfolio-text"> One <p>
-                                    </div> 
-                                </a>
-                                <a id="projectB" href="#projectTwo">
+								<div class="col-xs-4 col-md-4 tile tile-long"> 
+								<figure>
+									<img src="https://placeimg.com/410/200/arch/sepia" class="img-responsive img-portfolio"/>
+									<figcaption>
+										<a id="projectA" href="#projectOne">
+										<h3> Casa di Rossella  </h3>
+										<p> La casa di Rossella è un progetto di Ciro Vendrame</p>
+										</a>
+									</figcaption>
+								</figure>
+								</div> 
+
+                                
                                 <div class="col-xs-1 col-md-1 tile">
+								<figure>
                                         <img src="https://placeimg.com/200/200/arch" class="img-responsive img-portfolio">
-                                        <p class="portfolio-text"> Two </p>
+									<figcaption>
+									<a id="projectB" href="#projectTwo">
+									<h3> Casa di Bruno </h3>
+									<p> Questo è un progetto di Ciro Vendrame </p>
+									</a>
+									</figcaption>
+								</figure>
                                 </div></a>
-                                <a id ="projectC" href="#projectThree">
-                                <div class="col-xs-1 col-md-1 tile">
-                                    <img src="http://lorempixel.com/output/city-q-c-200-200-8.jpg" class="img-responsive img-portfolio">
-                                    <p class="portfolio-text"> Three </p>
-                                </div></a>
-                                <a id="projectD" href="#projectFour">
-                                <div class="col-xs-1 col-md-1 tile"> 
-                                    <img src="http://lorempixel.com/output/nightlife-q-c-200-200-7.jpg" class="img-responsive img-portfolio">
-                                    <p class="portfolio-text"> Four </p>
-                                </div> </a>
-                            
-                        
-                            </div>
+                                
+                                <div class="col-xs-1 col-md-1 tile tile-long">
+								<figure>
+									<img src="http://lorempixel.com/output/city-q-c-410-200-6.jpg" class="img-responsive img-portfolio"/>
+									<figcaption>
+										<a id ="projectC" href="#projectThree">
+									<h3> Casa Cerciello </h3>
+									<p> Questo è un progetto di Ciro Vendrame </p>
+										</a>
+									</figcaption>
+								</figure>
+                                </div>
+						</div>
                         </div>
                         
                         <div class="row center-block">
                             <div class="col-md-12 col-xs-12">
+							
                                 <a id="projectE" href="#projectFive">
                                 <div class="col-xs-1 col-md-1 tile">
+								<figure>
 									<img src="http://lorempixel.com/output/nightlife-q-c-200-200-3.jpg" alt="" class="img-responsive img-portfolio"> 
-                                <p class="portfolio-text"> Five </p>
-                                
+								<figcaption>
+								<h3> "Il Formichiere"</h3>
+								<p> Questo è un progetto di Ciro Vendrame </p>
+								</figcaption>
+								</figure>
                                 </div></a>
-                                <a id="projectF" href="#projectSix">
-                                <div class="col-xs-1 col-md-1 tile">
-                                <img src="http://lorempixel.com/output/city-q-c-200-200-4.jpg" alt="" class="img-responsive img-portfolio">
-                                <p class="portfolio-text"> Six </p>
-                                </div>
-                                </a>
+								
+                                <a id="projectF" href="#projectSix"> 
+                                <div class="col-xs-1 col-md-1 tile tile-long">
+								<figure>
+                                <img src="http://lorempixel.com/output/city-q-g-410-200-7.jpg" alt="" class="img-responsive img-portfolio">
+								<figcaption>
+								
+								<h3> Parco di Veio</h3>
+								<p> Questo è un progetto di Ciro Vendrame </p>
+								</figcaption>
+								</figure>
+								</div></a>
+								
                                 <a id="projectG" href="#projectSeven">
                                 <div class="col-xs-4 col-md-4  tile tile-long">
+								<figure>
                                 <img src="https://placeimg.com/410/200/arch" alt="" class="img-responsive img-portfolio">
-                                <p class="portfolio-text"> Seven </p>                              
+								<figcaption>
+								<h3> Museo Archeologico Napoli </h3>
+								<p> Questo è un progetto di Ciro Vendrame </p>
+								</figcaption>
+								</figure>
+                        
                                 </div>
                                 </a>
-                                <a id="projectH" href="#projectEight">
-                                <div class="col-xs-1 col-md-1 tile">
-                                <img src="https://placeimg.com/200/200/arch" alt="" class="img-responsive img-portfolio">
-                                <p class="portfolio-text">Eight</p>
-                    </div>
-                </div>
-                                                            
-                                
-                                </div>
-                                </a>
+
                             </div>  
                         </div>
+						
                         
                     </div>
                     <!-- Portfolio modal snippet end *COPY UNTIL HERE*-->
@@ -275,7 +300,9 @@
                         <textarea class="form-control" placeholder="Il tuo messaggio" id="message" required=""
                         data-validation-required-message="Per favore inserisci il tuo messaggio"></textarea>
                             <p class="help-block text-danger"></p>
-                        <button type="submit" class="btn btn-default">Send Message</button>
+						<div class="col-md-2 col-md-offset-2">
+							<button type="submit" class="btn btn-default">Send Message</button>
+						</div>
                     </form>
                 </div>
                 <div class="col-md-2">
@@ -293,7 +320,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <p>© Ciro Vendrame 2014</p> 
+                        <p>© Ciro Vendrame 2014</p> <br>
+						<p> Design: <a href="#"> Alessandra Gherardelli </a> </p>
                     </div>
             
                     <div class="col-md-4 pull-right" id="social-media">
