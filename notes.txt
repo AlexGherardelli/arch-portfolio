@@ -5,7 +5,9 @@ COLOR FOR WEBSITE
 Ciro Palette
 -----------------------------------
 #F2A308 Yellow
-#B44937 Coral
+#F49241 Sand 
+#255373 Navy blue
+#CA4C08 Coral
 #333333 Grey
 E77F2F Alternative yellow
 
