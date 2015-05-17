@@ -186,7 +186,8 @@ figcaption a:hover {
 @media(max-width:480px)
 {
 	.tile-long{
-		width: 200px;
+		width: auto;
+		height: 200px
 	}
 
 
@@ -196,7 +197,7 @@ figcaption a:hover {
 @media (min-width: 481px) and (max-width:980px)
 {
 	.tile-long{
-		width: 200px;
+		width: auto;
 		margin-right: margin: 5px;
 	}
 
