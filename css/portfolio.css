@@ -5,6 +5,7 @@
     margin: 5px;
     padding: 0px;
 	color: white;
+	border: 1px white;
 }
 
 .tile-long{
@@ -184,21 +185,19 @@ figcaption a:hover {
 /* MOBILE SETTINGS */
 @media(max-width:480px)
 {
-	.tile{
-		height: 6em;
-		width: 6em;
-		font-size: 12pt;		
+	.tile-long{
+		width: 200px;
 	}
+
 
 }
 
 
 @media (min-width: 481px) and (max-width:980px)
 {
-	.tile{
-		height: 9em;
-		width: 9em;
-		font-size: 12pt;		
+	.tile-long{
+		width: 200px;
+		margin-right: margin: 5px;
 	}
 
 }
