@@ -189,6 +189,20 @@ figcaption a:hover {
 		width: auto;
 		height: 200px
 	}
+	.tile{
+		width: auto;
+	}
+	figure {
+    margin: 0;
+    padding: 0px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+	}
+	
+	
 
 
 }
@@ -198,8 +212,23 @@ figcaption a:hover {
 {
 	.tile-long{
 		width: auto;
-		margin-right: margin: 5px;
+		height: 200px
 	}
+	.tile{
+		width: auto;
+		margin: 1px;
+	}
+	figure {
+    margin: 0;
+    padding: 0px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+	}
+	
+	
 
 }
 
