@@ -1,0 +1,12 @@
+<a id="projectA" href="#projectOne">
+<div class="col-xs-1 col-sm-2 col-md-4 tile tile-long"> 
+<figure>
+	<img src="https://placeimg.com/410/200/arch/sepia" class="img-responsive img-portfolio"/>
+	<figcaption>
+		
+		<h3> Casa di Rossella  </h3>
+		<p> La casa di Rossella è un progetto di Ciro Vendrame</p>
+		
+	</figcaption>
+</figure>
+</div> </a>

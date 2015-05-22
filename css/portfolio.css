@@ -9,7 +9,7 @@
 }
 
 .tile-long{
-	width: 410px;
+	width: 400px;
 
 }
 
@@ -186,22 +186,12 @@ figcaption a:hover {
 @media(max-width:480px)
 {
 	.tile-long{
-		width: auto;
-		height: 200px
+		width: auto !important;
+		height: auto !important
 	}
 	.tile{
-		width: auto;
-	}
-	figure {
-    margin: 0;
-    padding: 0px;
-    height: auto;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    overflow: hidden;
-	}
-	
+		width: auto !important
+	}	
 	
 
 
@@ -210,24 +200,16 @@ figcaption a:hover {
 
 @media (min-width: 481px) and (max-width:980px)
 {
-	.tile-long{
-		width: auto;
-		height: 200px
+		.tile-long{
+		width: auto !important;
+		height: auto !important
 	}
 	.tile{
-		width: auto;
-		margin: 1px;
-	}
-	figure {
-    margin: 0;
-    padding: 0px;
-    height: auto;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    overflow: hidden;
-	}
+		width: auto !important
+	}	
 	
+
+
 	
 
 }
@@ -237,11 +219,33 @@ figcaption a:hover {
 @media only screen
 and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
+  
+  	.tile-long{
+		width: auto !important;
+		height: auto !important
+	}
+	.tile{
+		width: auto !important
+	}	
+	
+
+
 }
  
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
   /* Styles */
+  
+  	.tile-long{
+		width: auto !important;
+		height: auto !important
+	}
+	.tile{
+		width: auto !important
+	}	
+	
+
+
 }
  
 /* Smartphones (portrait) ----------- */
