@@ -154,11 +154,11 @@
                     
 
                     <!-- Portfolio modal snippet *COPY FROM HERE*-->
-                    <div class="container">
+                    <div class="container gallery">
                         <div class="row center-block">
                             <div class="col-md-12 ">
 								<a id="projectA" href="#projectOne">
-								<div class="col-xs-1 col-sm-2 col-md-4 tile tile-long"> 
+								<div class="col-md-4 tile tile-long"> 
 								<figure>
 									<img src="images/portfolio/a.jpg" class="img-responsive img-portfolio"/>
 									<figcaption>
@@ -170,20 +170,21 @@
 								</figure>
 								</div> </a>
 
-                                
-                                <div class="col-xs-2 col-sm-6 tile">
+                                <a id="projectB" href="#projectTwo">
+                                <div class="col-md-6 tile">
 								<figure>
                                         <img src="images/portfolio/b.jpg" class="img-responsive img-portfolio">
 									<figcaption>
-									<a id="projectB" href="#projectTwo">
+									
 									<h3> Casa di Bruno </h3>
 									<p> Questo è un progetto di Ciro Vendrame </p>
 									</a>
 									</figcaption>
 								</figure>
-                                </div></a>
+                                </div>
+								
                                 <a id ="projectC" href="#projectThree">
-                                <div class="col-xs-2 col-sm-6 col-md-4 tile tile-long">
+                                <div class="col-md-4 tile tile-long">
 								<figure>
 									<img src="images/portfolio/c.jpg" class="img-responsive img-portfolio"/>
 									<figcaption>
@@ -200,8 +201,8 @@
                         <div class="row center-block">
                             <div class="col-md-12 col-xs-12">
 							
-                                <a id="projectE" href="#projectFive">
-                                <div class="col-xs-2 col-sm-6 col-md-1 tile">
+                                <a id="projectD" href="#projectFour">
+                                <div class="col-md-6 tile">
 								<figure>
 									<img src="images/portfolio/d.jpg" alt="" class="img-responsive img-portfolio"> 
 								<figcaption>
@@ -211,8 +212,8 @@
 								</figure>
                                 </div></a>
 								
-                                <a id="projectF" href="#projectSix"> 
-                                <div class="col-xs-1 col-sm-2 col-md-4  tile tile-long">
+                                <a id="projectE" href="#projectFive"> 
+                                <div class="col-md-4 tile tile-long">
 								<figure>
                                 <img src="images/portfolio/e.jpg" alt="" class="img-responsive img-portfolio">
 								<figcaption>
@@ -223,12 +224,54 @@
 								</figure>
 								</div></a>
 								
-                                <a id="projectG" href="#projectSeven">
-                                <div class="col-xs-1 col-sm-2 col-md-4 tile tile-long">
+                                <a id="projectF" href="#projectSix">
+                                <div class="col-md-4 tile tile-long">
 								<figure>
                                 <img src="images/portfolio/a.jpg" alt="" class="img-responsive img-portfolio">
 								<figcaption>
 								<h3> Museo Archeologico Napoli </h3>
+								<p> Questo è un progetto di Ciro Vendrame </p>
+								</figcaption>
+								</figure>
+                        
+                                </div>
+                                </a>
+
+                            </div>  
+                        </div>
+<!-- new row -->						
+						<div class="row center-block">
+                            <div class="col-md-12 col-xs-12">
+							
+                                <a id="projectG" href="#projectSeven">
+                                <div class="col-md-6 tile tile-long">
+								<figure>
+									<img src="images/portfolio/a.jpg" alt="" class="img-responsive img-portfolio"> 
+								<figcaption>
+								<h3> Altro progetto</h3>
+								<p> Questo è un progetto di Ciro Vendrame </p>
+								</figcaption>
+								</figure>
+                                </div></a>
+								
+                                <a id="projectH" href="#projectEight"> 
+                                <div class="col-md-4 tile tile-long">
+								<figure>
+                                <img src="images/portfolio/e.jpg" alt="" class="img-responsive img-portfolio">
+								<figcaption>
+								
+								<h3> Altro progetto</h3>
+								<p> Questo è un progetto di Ciro Vendrame </p>
+								</figcaption>
+								</figure>
+								</div></a>
+								
+                                <a id="projectI" href="#projectNine">
+                                <div class="col-md-4 tile">
+								<figure>
+                                <img src="images/portfolio/g.jpg" alt="" class="img-responsive img-portfolio">
+								<figcaption>
+								<h3> Altro progetto </h3>
 								<p> Questo è un progetto di Ciro Vendrame </p>
 								</figcaption>
 								</figure>
@@ -321,8 +364,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <p>© Ciro Vendrame 2014</p> <br>
-						<p> Design: <a href="#"> Alessandra Gherardelli </a> </p>
+                        <p id="copyrights">© Ciro Vendrame 2014</p> <br>
+						<p> Design: <a href="https://github.com/AlexGherardelli"> Alessandra Gherardelli </a> </p>
                     </div>
             
                     <div class="col-md-4 pull-right" id="social-media">
@@ -606,6 +649,39 @@
                 </div>
             </div>
         </div>
+		
+		
+		<!-- Project Nine -->
+		<div id="projectNine">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-projectNine"> 
+                <i class="fa fa-times-circle fa-3x"></i>
+            </div>
+                
+            <!-- modal content start -->
+        <div class="modal-content">
+            <div class="container"
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2> Project Name </h2>
+                        <hr>
+                        <h4> Short technical details </h4>
+                        <br/>
+                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
+                        <div class="col-md-6 col-md-offset-3 text-justify">
+                        <h5> Something interesting </h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
+                        <h5> Other stuff worth saying </h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
+                        <h5> An useful example </h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- modal content end -->
         </div>
         
@@ -623,6 +699,10 @@
     <!-- Custom scripts-->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+	
+
+
+	
     <!-- PORTFOLIO SNIPPET JS *COPY FROM HERE*-->
 
         <script src="js/animatedModal.min.js"></script>
@@ -696,6 +776,14 @@
             //Project Eight
             $("#projectH").animatedModal({
                 modalTarget: 'projectEight',
+                color: '#fff',
+                animatedOut:'bounceOutDown',
+
+            });
+			
+			//Project Nine
+            $("#projectI").animatedModal({
+                modalTarget: 'projectNine',
                 color: '#fff',
                 animatedOut:'bounceOutDown',
 

@@ -51,6 +51,10 @@ a:active {
     text-decoration: none;
 }
 
+#copyrights p{
+	font-size: 100%;
+}
+
 /************************************** NAVBAR */
 .navbar{
 	background: transparent;

@@ -11,13 +11,15 @@ footer {
     bottom: 0pt;
     left: 0pt;
 	clear:both;
-
 }
+
+
 footer p{
 	display:inline-block;
-	padding-top: 10 px;
+	padding-top: 10px;
 	margin: 10px;
 }
+
 
  #social-media i{
 	display:inline-block;
