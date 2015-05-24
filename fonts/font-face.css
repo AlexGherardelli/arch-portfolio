@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Chunkfive';
+    src: url('fonts/Chunkfive-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Chunkfive-webfont.woff') format('woff'), /* Modern Browsers */
+    url('fonts/Chunkfive-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Chunkfive-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+     
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('fonts/leaguegothic-regular-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/leaguegothic-regular-webfont.woff') format('woff'), /* Modern Browsers */
+    url('fonts/leaguegothic-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/leaguegothic-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+    
+@font-face {
+    font-family: 'Prociono';
+    src: url('fonts/Prociono-Regular-webfont.eot'); /* IE9 Compat Modes */
+    src: url('Prociono-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Prociono-Regular-webfont.woff') format('woff'), /* Modern Browsers */
+    url('fonts/Prociono-Regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Prociono-Regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
