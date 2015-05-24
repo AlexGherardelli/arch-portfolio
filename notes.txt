@@ -41,3 +41,9 @@ Mystere palette
 #591E09 // Brown
 
 font-family: 'Philosopher', sans-serif;
+
+
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/style.css">

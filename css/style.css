@@ -1,4 +1,4 @@
-/************************************** GENERAL STYLING */
+/*** GENERAL STYLING ***/
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -41,9 +41,7 @@ h1{
 	color: #CA4C08;
 }
 
-#portfolio h1{
-	color: white;
-}
+
 a:link{
 	text-decoration:none;
 }
@@ -57,7 +55,7 @@ a:active {
     text-decoration: none;
 }
 
-/* NAVBAR */
+/*** NAVBAR ***/
 .navbar{
 	background: transparent;
 	border: none;
@@ -185,8 +183,14 @@ text-shadow: 0px 2px 3px #333;
 
 }
 
+
+/*** OTHER STYLING ***/
 #contatti h1{
 	color: #ffffff;
+}
+
+#portfolio h1{
+	color: white;
 }
 
 

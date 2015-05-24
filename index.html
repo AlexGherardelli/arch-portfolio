@@ -1,826 +1,1164 @@
 <!DOCTYPE html>
 <html lang="it">
-
-    <head>
-        <!-- meta stuff -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <!-- title-->
-        <title> Vendrame - Architettura &amp; Design</title>
-        <link rel="shortcut icon" href="images/favicon.ico" />
-
-        <!-- Framework and libraries -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        
-        
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/sections.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/portfolio.css">
-        <link rel="stylesheet" href="css/style.css">
-
-
-
-        <!-- Google Maps API v3 -->
-		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-
-        <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Lobster' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Philosopher' rel='stylesheet' type='text/css'>
-
-        
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-
-
- <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" id="navigationbar" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                   <img src="images/logo_white-shadow.png" class="img-responsive logo">
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Servizi</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Progetti</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Chi sono</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contatti">Contattami!</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  
+  <head>
+    <!-- meta stuff -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- title-->
+    <title>
+      Vendrame - Architettura &amp; Design
+    </title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    
+    <!-- Framework and libraries -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    
+    
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+    
+    
+    
+    <!-- Google Maps API v3 -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp">
+    </script>
+    
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Lobster' rel='stylesheet' type='text/css'>
+    
+    
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+</script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+</script>
+<![endif]-->
+  </head>
+  
+  
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
+    
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navigationbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">
+              Toggle navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">
+            <img src="images/logo_white-shadow.png" alt="logo-ciro-vendrame-architettura-e-design" class="img-responsive logo">
+          </a>
         </div>
-        <!-- /.container -->
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+              <a class="page-scroll" href="#page-top">
+              </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#services">
+                Servizi
+              </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#portfolio">
+                Progetti
+              </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">
+                Chi sono
+              </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contatti">
+                Contattami!
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
     </nav>
-
-<!-- Intro Section -->
-<section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row text-center center-block">
-                <div class="col-md-6 col-md-offset-6 col-xs-12">
-                    <h1> Ciro<span> Vendrame</span></h1>
-                    <h2> Architettura, rendering &amp; design</h2>
-                    <!-- button -->
-				</div>
-				<div class="col-md-12" id="btn-home">
-                    <a class="btn btn-default page-scroll btn-home"  href="#portfolio"><i class="fa fa-chevron-down fa-2x"></i><br/>
-
-					</a>
-				</div>
-                
-            </div>
-        </div>
-        <br style="clear:both" />
-    </section>
-
-
- <!-- Service Section -->
-<section id="services" class="services-section">
+  
+  <!-- Intro Section -->
+  <section id="intro" class="intro-section">
     <div class="container">
+      <div class="row text-center center-block">
+        <div class="col-md-6 col-md-offset-6 col-xs-12">
+          <h1>
+            Ciro
+            <span>
+              Vendrame
+            </span>
+          </h1>
+          <h2>
+            Architettura, rendering &amp; design
+          </h2>
+          <!-- button -->
+        </div>
+        <div class="col-md-12" id="btn-home">
+          <a class="btn btn-default page-scroll btn-home"  href="#portfolio">
+            <i class="fa fa-chevron-down fa-2x">
+            </i>
+            <br/>
+            
+          </a>
+        </div>
+        
+      </div>
+    </div>
+    <br style="clear:both" />
+  </section>
+  
+  
+  <!-- Service Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <h1>
+            Servizi Offerti
+          </h1>
+          <div class="row text-center" id="services-menu">
+            <div class="col-md-4">
+              <i class="fa fa-pencil fa-3x icon center-block">
+              </i>
+              <h4>
+                Progettazione e disegno 2D
+              </h4>
+              <div>
+                
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-cube fa-3x icon center-block">
+              </i>
+              <h4>
+                Modellazione 3D e rendering
+              </h4>
+              <div>
+                
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-home fa-3x icon center-block">
+              </i>
+              <h4>
+                Interior design
+              </h4>
+              <div>
+                
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+  <br style="clear:both" />
+  </section>
+  
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="row text-center">
+            <h1>
+              Progetti 
+            </h1>
+          </div>
+          
+          
+          <!-- Portfolio modal snippet *COPY FROM HERE*-->
+          <div class="container gallery">
+            <div class="row center-block">
+              <div class="col-md-12 ">
+                <a id="projectA" href="#projectOne">
+                  <div class="col-md-4 tile tile-long">
+                    
+                    <figure>
+                      <img src="images/portfolio/a.jpg" class="img-responsive img-portfolio"/>
+                      <figcaption>
+                        
+                        <h3>
+                          Casa di Rossella  
+                        </h3>
+                        <p>
+                          La casa di Rossella è un progetto di Ciro Vendrame
+                        </p>
+                        
+                      </figcaption>
+                    </figure>
+                  </div>
+                  
+                </a>
+                
+                <a id="projectB" href="#projectTwo">
+                  <div class="col-md-6 tile">
+                    <figure>
+                      <img src="images/portfolio/b.jpg" class="img-responsive img-portfolio">
+                      <figcaption>
+                        
+                        <h3>
+                          Casa di Bruno 
+                        </h3>
+                        <p>
+                          Questo è un progetto di Ciro Vendrame 
+                        </p>
+                        
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+                
+                <a id ="projectC" href="#projectThree">
+                  <div class="col-md-4 tile tile-long">
+                    <figure>
+                      <img src="images/portfolio/c.jpg" class="img-responsive img-portfolio"/>
+                      <figcaption>
+                        
+                        <h3>
+                          Casa Cerciello 
+                        </h3>
+                        <p>
+                          Questo è un progetto di Ciro Vendrame 
+                        </p>
+                        
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+            <div class="row center-block">
+              <div class="col-md-12 col-xs-12">
+                
+                <a id="projectD" href="#projectFour">
+                  <div class="col-md-6 tile">
+                    <figure>
+                      <img src="images/portfolio/d.jpg" alt="" class="img-responsive img-portfolio">
+                      
+                      <figcaption>
+                        <h3>
+                          "Il Formichiere"
+                        </h3>
+                        <p>
+                          Questo è un progetto di Ciro Vendrame 
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+                
+                <a id="projectE" href="#projectFive">
+                  
+                  <div class="col-md-4 tile tile-long">
+                    <figure>
+                      <img src="images/portfolio/e.jpg" alt="" class="img-responsive img-portfolio">
+                      <figcaption>
+                        
+                        <h3>
+                          Parco di Veio
+                        </h3>
+                        <p>
+                          Questo è un progetto di Ciro Vendrame 
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+                
+                <a id="projectF" href="#projectSix">
+                  <div class="col-md-4 tile tile-long">
+                    <figure>
+                      <img src="images/portfolio/a.jpg" alt="" class="img-responsive img-portfolio">
+                      <figcaption>
+                        <h3>
+                          Museo Archeologico Napoli 
+                        </h3>
+                        <p>
+                          Questo è un progetto di Ciro Vendrame 
+                        </p>
+                      </figcaption>
+                    </figure>
+                    
+                  </div>
+                </a>
+                
+              </div>
+              
+            </div>
+            
+            <div class="row center-block">
+              <div class="col-md-12 col-xs-12">
+                
+                <a id="projectG" href="#projectSeven">
+                  <div class="col-md-6 tile tile-long">
+                    <figure>
+                      <img src="images/portfolio/a.jpg" alt="" class="img-responsive img-portfolio">
+                      
+                      <figcaption>
+                        <h3>
+                          Altro progetto
+                        </h3>
+                        <p>
+                          Questo è un progetto di Ciro Vendrame 
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+                
+                <a id="projectH" href="#projectEight">
+                  
+                  <div class="col-md-4 tile tile-long">
+                    <figure>
+                      <img src="images/portfolio/e.jpg" alt="" class="img-responsive img-portfolio">
+                      <figcaption>
+                        
+                        <h3>
+                          Altro progetto
+                        </h3>
+                        <p>
+                          Questo è un progetto di Ciro Vendrame 
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+                
+                <a id="projectI" href="#projectNine">
+                  <div class="col-md-4 tile">
+                    <figure>
+                      <img src="images/portfolio/g.jpg" alt="" class="img-responsive img-portfolio">
+                      <figcaption>
+                        <h3>
+                          Altro progetto 
+                        </h3>
+                        <p>
+                          Questo è un progetto di Ciro Vendrame 
+                        </p>
+                      </figcaption>
+                    </figure>
+                    
+                  </div>
+                </a>
+                
+              </div>
+              
+            </div>
+            
+            
+          </div>
+          <!-- Portfolio modal snippet end *COPY UNTIL HERE*-->
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>
+            Chi sono
+          </h1>
+          <div class="row">
+            <div class="col-md-4 col-xs-12 " id="profile-img">
+              <img src="images/profile-pic.jpg" class="img-responsive center-block" alt="profile picture">
+            </div>
+            <div class="col-md-4 col-xs-12 text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+            <div class="col-md-4 col-xs-12 text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br style="clear:both" />
+  </section>
+  
+  
+  <!-- Contacts Section -->
+  <section class="contact-section" id="contatti">
+    <div class="container">
+      <div class="row text-center">
+        <h1>
+          Contattami!
+        </h1>
+        <div class="col-md-4 col-md-offset-1 col-xs-12" id="contact-form">
+          
+          <form name="sentMessage" class="text-left " id="contactForm" novalidate="">
+            <label for="name">
+              Nome
+            </label>
+            <input type="text" class="form-control" placeholder="Nome" id="name" required=""
+            data-validation-required-message="Per favore inserisci il tuo nome" >
+            <p class="help-block text-danger">
+            </p>
+            <label for="name">
+              Cognome
+            </label>
+            <input type="text" class="form-control" placeholder="Cognome" id="surname" required=""
+            data-validation-required-message="Per favore inserisci il tuo cognome" >
+            <p class="help-block text-danger">
+            </p>
+            <label for="email">
+              Email
+            </label>
+            <input type="email" class="form-control" placeholder="Email" id="email" required=""
+            data-validation-required-message="Per favore inserisci la tua email" >
+            <p class="help-block text-danger">
+            </p>
+            <p class="help-block text-danger">
+            </p>
+            <label for="message">
+              Messaggio
+            </label>
+            <textarea class="form-control" placeholder="Il tuo messaggio" id="message" required=""
+            data-validation-required-message="Per favore inserisci il tuo messaggio">
+            </textarea>
+            <p class="help-block text-danger">
+            </p>
+            <div class="col-md-2 col-md-offset-2">
+              <button type="submit" class="btn btn-default">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 col-md-offset-1 col-xs-12">
+          <p>
+            Il mio studio si trova in Via delle Betulle, 00171, Roma.
+            <br/>
+            Puoi anche scrivermi all'indirizzo 
+            <strong>
+              
+              <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+                ciro@vendrame.com 
+              </a>
+            </strong>
+          </p>
+          <div id="map-canvas" class="img-responsive">
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+    <br style="clear:both" />
+  </section>
+  
+  <div id="clear">
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p>
+            © Ciro Vendrame 2015
+          </p>
+          
+          <br/>
+          <p id="credits">
+            Design: 
+            <a href="https://github.com/AlexGherardelli">
+              Alessandra Gherardelli 
+            </a>
+            
+          </p>
+        </div>
+        
+        <div class="col-md-4 pull-right" id="social-media">
+          <a href="#">
+            
+            <i class="fa fa-linkedin-square fa-2x">
+            </i>
+            
+          </a>
+          <a href="#">
+            <i class="fa fa-flickr fa-2x">
+            </i>
+          </a>
+          <a href="#">
+            <i class="fa fa-instagram fa-2x">
+            </i>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  
+  
+  <!-- Portfolio Modals  *COPY FROM HERE-->
+  
+  <!--Project One-->
+  <div id="projectOne">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-projectOne">
+      
+      <i class="fa fa-times-circle-o fa-2x">
+      </i>
+    </div>
+    <!-- modal content start -->
+    <div class="modal-content">
+      <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <h1>Servizi Offerti</h1>
-                    <div class="row text-center" id="services-menu">
-                            <div class="col-md-4">
-                                <i class="fa fa-pencil fa-3x icon center-block"></i>
-                                <h4>Progettazione e disegno 2D</h4>
-                                <div> 
-                                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <i class="fa fa-cube fa-3x icon center-block"></i>
-                                <h4>Modellazione 3D e rendering</h4>
-                                <div> 
-                                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <i class="fa fa-home fa-3x icon center-block"></i>
-                                <h4>Interior design</h4>
-                                <div> 
-                                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-                                </div>
-                            </div>
-
-                    </div>
+          <div class="col-md-12 text-center">
+            <h2>
+              Project Name 
+            </h2>
+            <hr>
+            <h4>
+              Short technical details 
+            </h4>
+            <br/>
+            <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+            <div class="col-md-6 col-md-offset-3 text-justify">
+              <h5>
+                Something interesting 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <h5>
+                Other stuff worth saying 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+              <h5>
+                An useful example 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-        <br style="clear:both" />
-</section>
-
-<section id="portfolio" class="portfolio-section">
+    <!-- modal content end -->
+  </div>
+  
+  
+  <!-- Project Two -->
+  <div id="projectTwo">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-projectTwo">
+      
+      <i class="fa fa-times-circle-o fa-2x">
+      </i>
+    </div>
+    
+    <!-- modal content start -->
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>
+              Project Name 
+            </h2>
+            <hr>
+            <h4>
+              Short technical details 
+            </h4>
+            <br/>
+            <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+            <div class="col-md-6 col-md-offset-3 text-justify">
+              <h5>
+                Something interesting 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <h5>
+                Other stuff worth saying 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+              <h5>
+                An useful example 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal content end -->
+  </div>
+  
+  <!-- Project Three -->
+  <div id="projectThree">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-projectThree">
+      
+      <i class="fa fa-times-circle-o fa-2x">
+      </i>
+      
+    </div>
+    
+    <!-- modal content start -->
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>
+              Project Name 
+            </h2>
+            <hr>
+            <h4>
+              Short technical details 
+            </h4>
+            <br/>
+            <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+            <div class="col-md-6 col-md-offset-3 text-justify">
+              <h5>
+                Something interesting 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <h5>
+                Other stuff worth saying 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+              <h5>
+                An useful example 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal content end -->
+  </div>
+  
+  <!-- Project Four -->
+  <div id="projectFour">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-projectFour">
+      
+      <i class="fa fa-times-circle-o fa-2x">
+      </i>
+    </div>
+    
+    <!-- modal content start -->
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>
+              Project Name 
+            </h2>
+            <hr>
+            <h4>
+              Short technical details 
+            </h4>
+            <br/>
+            <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+            <div class="col-md-6 col-md-offset-3 text-justify">
+              <h5>
+                Something interesting 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <h5>
+                Other stuff worth saying 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+              <h5>
+                An useful example 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal content end -->
+  </div>
+  
+  <!-- Project Five -->
+  <div id="projectFive">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-projectFive">
+      
+      <i class="fa fa-times-circle-o fa-2x">
+      </i>
+    </div>
+    
+    <!-- modal content start -->
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>
+              Project Name 
+            </h2>
+            <hr>
+            <h4>
+              Short technical details 
+            </h4>
+            <br/>
+            <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+            <div class="col-md-6 col-md-offset-3 text-justify">
+              <h5>
+                Something interesting 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <h5>
+                Other stuff worth saying 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+              <h5>
+                An useful example 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal content end -->
+  </div>
+  
+  <!-- Project Six -->
+  <div id="projectSix">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-projectSix">
+      
+      <i class="fa fa-times-circle-o fa-2x">
+      </i>
+    </div>
+    
+    <!-- modal content start -->
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>
+              Project Name 
+            </h2>
+            <hr>
+            <h4>
+              Short technical details 
+            </h4>
+            <br/>
+            <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+            <div class="col-md-6 col-md-offset-3 text-justify">
+              <h5>
+                Something interesting 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <h5>
+                Other stuff worth saying 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+              <h5>
+                An useful example 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal content end -->
+  </div>
+  
+  <!-- Project Seven -->
+  <div id="projectSeven">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-projectSeven">
+      
+      <i class="fa fa-times-circle-o fa-2x">
+      </i>
+    </div>
+    
+    <!-- modal content start -->
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>
+              Project Name 
+            </h2>
+            <hr>
+            <h4>
+              Short technical details 
+            </h4>
+            <br/>
+            <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+            <div class="col-md-6 col-md-offset-3 text-justify">
+              <h5>
+                Something interesting 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <h5>
+                Other stuff worth saying 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+              <h5>
+                An useful example 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal content end -->
+  </div>
+  
+  <!-- Project Eight -->
+  <div id="projectEight">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-projectEight">
+      
+      <i class="fa fa-times-circle-o fa-2x">
+      </i>
+    </div>
+    
+    <!-- modal content start -->
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>
+              Project Name 
+            </h2>
+            <hr>
+            <h4>
+              Short technical details 
+            </h4>
+            <br/>
+            <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+            <div class="col-md-6 col-md-offset-3 text-justify">
+              <h5>
+                Something interesting 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <h5>
+                Other stuff worth saying 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+              <h5>
+                An useful example 
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Project Nine -->
+    <div id="projectNine">
+      <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+      <div id="btn-close-modal" class="close-projectNine">
+        
+        <i class="fa fa-times-circle-o fa-2x">
+        </i>
+      </div>
+      
+      <!-- modal content start -->
+      <div class="modal-content">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="row text-center">
-                        <h1> Progetti </h1>
-                    </div>
-                    
-
-                    <!-- Portfolio modal snippet *COPY FROM HERE*-->
-                    <div class="container gallery">
-                        <div class="row center-block">
-                            <div class="col-md-12 ">
-								<a id="projectA" href="#projectOne">
-								<div class="col-md-4 tile tile-long"> 
-								<figure>
-									<img src="images/portfolio/a.jpg" class="img-responsive img-portfolio"/>
-									<figcaption>
-										
-										<h3> Casa di Rossella  </h3>
-										<p> La casa di Rossella è un progetto di Ciro Vendrame</p>
-										
-									</figcaption>
-								</figure>
-								</div> </a>
-
-                                <a id="projectB" href="#projectTwo">
-                                <div class="col-md-6 tile">
-								<figure>
-                                        <img src="images/portfolio/b.jpg" class="img-responsive img-portfolio">
-									<figcaption>
-									
-									<h3> Casa di Bruno </h3>
-									<p> Questo è un progetto di Ciro Vendrame </p>
-									</a>
-									</figcaption>
-								</figure>
-                                </div>
-								
-                                <a id ="projectC" href="#projectThree">
-                                <div class="col-md-4 tile tile-long">
-								<figure>
-									<img src="images/portfolio/c.jpg" class="img-responsive img-portfolio"/>
-									<figcaption>
-										
-									<h3> Casa Cerciello </h3>
-									<p> Questo è un progetto di Ciro Vendrame </p>
-										
-									</figcaption>
-								</figure>
-                                </div></a>
-						</div>
-                        </div>
-                        
-                        <div class="row center-block">
-                            <div class="col-md-12 col-xs-12">
-							
-                                <a id="projectD" href="#projectFour">
-                                <div class="col-md-6 tile">
-								<figure>
-									<img src="images/portfolio/d.jpg" alt="" class="img-responsive img-portfolio"> 
-								<figcaption>
-								<h3> "Il Formichiere"</h3>
-								<p> Questo è un progetto di Ciro Vendrame </p>
-								</figcaption>
-								</figure>
-                                </div></a>
-								
-                                <a id="projectE" href="#projectFive"> 
-                                <div class="col-md-4 tile tile-long">
-								<figure>
-                                <img src="images/portfolio/e.jpg" alt="" class="img-responsive img-portfolio">
-								<figcaption>
-								
-								<h3> Parco di Veio</h3>
-								<p> Questo è un progetto di Ciro Vendrame </p>
-								</figcaption>
-								</figure>
-								</div></a>
-								
-                                <a id="projectF" href="#projectSix">
-                                <div class="col-md-4 tile tile-long">
-								<figure>
-                                <img src="images/portfolio/a.jpg" alt="" class="img-responsive img-portfolio">
-								<figcaption>
-								<h3> Museo Archeologico Napoli </h3>
-								<p> Questo è un progetto di Ciro Vendrame </p>
-								</figcaption>
-								</figure>
-                        
-                                </div>
-                                </a>
-
-                            </div>  
-                        </div>
-				
-						<div class="row center-block">
-                            <div class="col-md-12 col-xs-12">
-							
-                                <a id="projectG" href="#projectSeven">
-                                <div class="col-md-6 tile tile-long">
-								<figure>
-									<img src="images/portfolio/a.jpg" alt="" class="img-responsive img-portfolio"> 
-								<figcaption>
-								<h3> Altro progetto</h3>
-								<p> Questo è un progetto di Ciro Vendrame </p>
-								</figcaption>
-								</figure>
-                                </div></a>
-								
-                                <a id="projectH" href="#projectEight"> 
-                                <div class="col-md-4 tile tile-long">
-								<figure>
-                                <img src="images/portfolio/e.jpg" alt="" class="img-responsive img-portfolio">
-								<figcaption>
-								
-								<h3> Altro progetto</h3>
-								<p> Questo è un progetto di Ciro Vendrame </p>
-								</figcaption>
-								</figure>
-								</div></a>
-								
-                                <a id="projectI" href="#projectNine">
-                                <div class="col-md-4 tile">
-								<figure>
-                                <img src="images/portfolio/g.jpg" alt="" class="img-responsive img-portfolio">
-								<figcaption>
-								<h3> Altro progetto </h3>
-								<p> Questo è un progetto di Ciro Vendrame </p>
-								</figcaption>
-								</figure>
-                        
-                                </div>
-                                </a>
-
-                            </div>  
-                        </div>
-
-                        
-                    </div>
-                    <!-- Portfolio modal snippet end *COPY UNTIL HERE*-->
-                    
-                    
-                    
-                </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>
+                Project Name 
+              </h2>
+              <hr>
+              <h4>
+                Short technical details 
+              </h4>
+              <br/>
+              <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+              <div class="col-md-6 col-md-offset-3 text-justify">
+                <h5>
+                  Something interesting 
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                </p>
+                <img src="http://placehold.it/600x300" class="img-responsive project-image" alt=""/>
+                <h5>
+                  Other stuff worth saying 
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                </p>
+                <img src="http://placehold.it/600x300" class="img-responsive project-image" alt="" />
+                <h5>
+                  An useful example 
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                </p>
+              </div>
             </div>
+          </div>
         </div>
-</section>
-            
-
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-12">
-                    <h1>Chi sono</h1>
-                        <div class="row">
-                            <div class="col-md-4 col-xs-12 " id="profile-img">
-                            <img src="images/profile-pic.jpg" class="img-responsive center-block" alt="profile picture">
-                            </div>
-                            <div class="col-md-4 col-xs-12 text-justify">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            </div>
-                            <div class="col-md-4 col-xs-12 text-justify">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            
-                            </div>
-                        </div>
-                </div>
-        </div>
-        </div>
-            <br style="clear:both" />
-    </section>
-
-
-    <!-- Contacts Section -->
-    <section class="contact-section" id="contatti">
-            <div class="container">
-                <div class="row text-center">
-					<h1>Contattami!</h1>
-					<div class="col-md-4 col-md-offset-1 col-xs-12" id="contact-form">
-						
-						<form name="sentMessage" class="text-left " id="contactForm" novalidate="">
-							<label for="name">Nome</label>
-							<input type="text" class="form-control" placeholder="Nome" id="name" required=""
-							data-validation-required-message="Per favore inserisci il tuo nome" >
-								<p class="help-block text-danger"></p>
-							<label for="name">Cognome</label>
-							<input type="text" class="form-control" placeholder="Cognome" id="surname" required=""
-							data-validation-required-message="Per favore inserisci il tuo cognome" >
-								<p class="help-block text-danger"></p>
-							<label for="email">Email</label>
-							<input type="email" class="form-control" placeholder="Email" id="email" required=""
-							data-validation-required-message="Per favore inserisci la tua email" >
-								<p class="help-block text-danger"></p>
-							<p class="help-block text-danger"></p>
-							<label for="message">Messaggio</label>
-							<textarea class="form-control" placeholder="Il tuo messaggio" id="message" required=""
-							data-validation-required-message="Per favore inserisci il tuo messaggio"></textarea>
-								<p class="help-block text-danger"></p>
-							<div class="col-md-2 col-md-offset-2">
-								<button type="submit" class="btn btn-default">Send Message</button>
-							</div>
-						</form>
-					</div>
-					<div class="col-md-6 col-md-offset-1 col-xs-12">
-						<p> Il mio studio si trova in Via delle Betulle, 00171, Roma.<br/> Puoi anche scrivermi all'indirizzo <strong> <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"> ciro@vendrame.com </a></strong></p>
-						<div id="map-canvas" class="img-responsive"></div>
-					</div>              
-					
-				</div>
-        </div>
-            <br style="clear:both" />
-    </section>
-
-    <div id="clear"></div>
-    <!-- Footer -->
-    <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>© Ciro Vendrame 2015</p> <br/>
-						<p id="credits"> Design: <a href="https://github.com/AlexGherardelli"> Alessandra Gherardelli </a> </p>
-                    </div>
-            
-                    <div class="col-md-4 pull-right" id="social-media">
-                        <a href="#"> <i class="fa fa-linkedin-square fa-2x"></i> </a>
-                        <a href="#"><i class="fa fa-flickr fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-                    </div>
-                </div>
-            </div>
-
-    </footer>
-
-
-<!-- Portfolio Modals  *COPY FROM HERE-->  
-        <!--Project One-->
-    <div id="projectOne">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-        <div  id="btn-close-modal" class="close-projectOne"> 
-            <i class="fa fa-times-circle-o fa-2x"></i>
-        </div>
-        <!-- modal content start -->
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal content end -->
+      </div>
+      <!-- modal content end -->
     </div>
-        
-        
-        <!-- Project Two -->
-        <div id="projectTwo">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-projectTwo"> 
-                 <i class="fa fa-times-circle-o fa-2x"></i>
-            </div>
-                
-<!-- modal content start -->
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal content end -->
-        </div>
-        
-        <!-- Project Three -->
-        <div id="projectThree">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-projectThree"> 
-                 <i class="fa fa-times-circle-o fa-2x"></i>  
-            </div>
-                
-            <!-- modal content start -->
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal content end -->
-        </div>
-        
-        <!-- Project Four -->
-        <div id="projectFour">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-projectFour"> 
-                 <i class="fa fa-times-circle-o fa-2x"></i>
-            </div>
-                
-            <!-- modal content start -->
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal content end -->
-        </div>
-        
-        <!-- Project Five -->
-        <div id="projectFive">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-projectFive"> 
-                  <i class="fa fa-times-circle-o fa-2x"></i>
-            </div>
-                
-            <!-- modal content start -->
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                        <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal content end -->
-        </div>
-        
-        <!-- Project Six -->
-        <div id="projectSix">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-projectSix"> 
-                 <i class="fa fa-times-circle-o fa-2x"></i>
-            </div>
-                
-             <!-- modal content start -->
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal content end -->
-        </div>
-        
-        <!-- Project Seven -->
-        <div id="projectSeven">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-projectSeven"> 
-                 <i class="fa fa-times-circle-o fa-2x"></i>
-            </div>
-                
-            <!-- modal content start -->
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal content end -->
-        </div>
-        
-        <!-- Project Eight -->
-        <div id="projectEight">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-projectEight"> 
-                 <i class="fa fa-times-circle-o fa-2x"></i>
-            </div>
-                
-            <!-- modal content start -->
-        <div class="modal-content">
-            <div class="container"
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-		
-		
-		<!-- Project Nine -->
-		<div id="projectNine">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-            <div  id="btn-close-modal" class="close-projectNine"> 
-                 <i class="fa fa-times-circle-o fa-2x"></i>
-            </div>
-                
-            <!-- modal content start -->
-        <div class="modal-content">
-            <div class="container"
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2> Project Name </h2>
-                        <hr>
-                        <h4> Short technical details </h4>
-                        <br/>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <div class="col-md-6 col-md-offset-3 text-justify">
-                        <h5> Something interesting </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt=""/>
-                        <h5> Other stuff worth saying </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <img src="http://placehold.it/600x300" class="img-responsive project-image"alt="" />
-                        <h5> An useful example </h5>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal content end -->
-        </div>
-        
-<!-- PORTFOLIO SNIPPET *COPY TO HERE -->            
+    
+    <!-- PORTFOLIO SNIPPET *COPY TO HERE -->
     
     
     
     
-
+    
+    
     <!-- import jQuery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+    </script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/bootstrap.min.js">
+    </script>
+    
     <!-- Custom scripts-->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js">
+    </script>
+    <script src="js/scrolling-nav.js">
+    </script>
 	
-
-
+    
+    
 	
     <!-- PORTFOLIO SNIPPET JS *COPY FROM HERE*-->
-
-        <script src="js/animatedModal.min.js"></script>
-        <script>
-
-            //Project One
-            $("#projectA").animatedModal({
-                modalTarget: 'projectOne',
-                color: '#fff',
-                animatedIn:'lightSpeedIn',
-                animatedOut:'bounceOutDown',
-                animationDuration:'.6s', 
-
-            });
-            
-            //Project Two
-            $("#projectB").animatedModal({
-                modalTarget: 'projectTwo',
-                color: '#fff',
-                animatedIn:'bounceInLeft',
-                animatedOut:'bounceOutDown',
-                animationDuration:'.6s', 
-
-            });
-            
-            //Project Three
-            $("#projectC").animatedModal({
-                modalTarget: 'projectThree',
-                color: '#fff',
-                animatedIn:'bounceInUp',
-                animatedOut:'bounceOutDown',
-                animationDuration:'.6s', 
-
-            });
-            
-            //Project Four
-            $("#projectD").animatedModal({
-                modalTarget: 'projectFour',
-                color: '#fff',
-                animatedIn:'fadeInUpBig',
-                animatedOut:'bounceOutDown',
-
-            });
-            
-            //Project Five
-            $("#projectE").animatedModal({
-                modalTarget: 'projectFive',
-                color: '#fff',
-                animatedIn:'lightSpeedIn',
-                animatedOut:'bounceOutDown',
-
-            });
-            
-            //Project Six
-            $("#projectF").animatedModal({
-                modalTarget: 'projectSix',
-                color: '#fff',
-                animatedIn:'slideInUp',
-                animatedOut:'bounceOutDown',
-
-            });
-            
-            //Project Seven
-            $("#projectG").animatedModal({
-                modalTarget: 'projectSeven',
-                color: '#fff',
-                animatedIn:'slideInRight',
-                animatedOut:'bounceOutDown',
-            });
-            
-            //Project Eight
-            $("#projectH").animatedModal({
-                modalTarget: 'projectEight',
-                color: '#fff',
-                animatedOut:'bounceOutDown',
-
-            });
-			
-			//Project Nine
-            $("#projectI").animatedModal({
-                modalTarget: 'projectNine',
-                color: '#fff',
-                animatedOut:'bounceOutDown',
-
-            });
-            <!-- PORTFOLIO SNIPPET JS *COPY TO HERE*-->
-            
-            
-            
-        </script>
-        
- <script>
-        function initialize() {
-            var myLatlng = new google.maps.LatLng(41.89039, 12.56267);
-            var mapOptions = {
-            zoom: 17,
-            center: myLatlng
-            }
-            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-            var marker = new google.maps.Marker({
-                position: myLatlng,
-                map: map,
-                title: 'marker'
-            });
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
+    
+    <script src="js/animatedModal.min.js">
     </script>
-
-
-    </body>
-</html>
+    <script>
+      
+      //Project One
+      $("#projectA").animatedModal({
+        modalTarget: 'projectOne',
+        color: '#fff',
+        animatedIn:'lightSpeedIn',
+        animatedOut:'bounceOutDown',
+        animationDuration:'.6s', 
+        
+      }
+                                  );
+      
+      //Project Two
+      $("#projectB").animatedModal({
+        modalTarget: 'projectTwo',
+        color: '#fff',
+        animatedIn:'bounceInLeft',
+        animatedOut:'bounceOutDown',
+        animationDuration:'.6s', 
+        
+      }
+                                  );
+      
+      //Project Three
+      $("#projectC").animatedModal({
+        modalTarget: 'projectThree',
+        color: '#fff',
+        animatedIn:'bounceInUp',
+        animatedOut:'bounceOutDown',
+        animationDuration:'.6s', 
+        
+      }
+                                  );
+      
+      //Project Four
+      $("#projectD").animatedModal({
+        modalTarget: 'projectFour',
+        color: '#fff',
+        animatedIn:'fadeInUpBig',
+        animatedOut:'bounceOutDown',
+        
+      }
+                                  );
+      
+      //Project Five
+      $("#projectE").animatedModal({
+        modalTarget: 'projectFive',
+        color: '#fff',
+        animatedIn:'lightSpeedIn',
+        animatedOut:'bounceOutDown',
+        
+      }
+                                  );
+      
+      //Project Six
+      $("#projectF").animatedModal({
+        modalTarget: 'projectSix',
+        color: '#fff',
+        animatedIn:'slideInUp',
+        animatedOut:'bounceOutDown',
+        
+      }
+                                  );
+      
+      //Project Seven
+      $("#projectG").animatedModal({
+        modalTarget: 'projectSeven',
+        color: '#fff',
+        animatedIn:'slideInRight',
+        animatedOut:'bounceOutDown',
+      }
+                                  );
+      
+      //Project Eight
+      $("#projectH").animatedModal({
+        modalTarget: 'projectEight',
+        color: '#fff',
+        animatedOut:'bounceOutDown',
+        
+      }
+                                  );
+      
+      //Project Nine
+      $("#projectI").animatedModal({
+        modalTarget: 'projectNine',
+        color: '#fff',
+        animatedOut:'bounceOutDown',
+        
+      }
+                                  );
+      <!-- PORTFOLIO SNIPPET JS *COPY TO HERE*-->
+        
+        
+        
+    </script>
+    
+    <script>
+      function initialize() {
+        var myLatlng = new google.maps.LatLng(41.89039, 12.56267);
+        var mapOptions = {
+          zoom: 17,
+          center: myLatlng
+        }
+            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'marker'
+        }
+                                           );
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    
+    
+  </body>
+  </html>
+  
