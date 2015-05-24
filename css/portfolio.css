@@ -23,7 +23,6 @@
 portfolio-section h2{
 	color: #ffffff;
 }
-/****************************************************************************************/
 
 figure {
     margin: 0;
@@ -130,19 +129,7 @@ figcaption a:hover {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/****************************************************************************************/
-/* MODAL styling */
+/* MODAL*/
 #btn-close-modal {
 	width:100%;
 	text-align: center;
@@ -177,7 +164,6 @@ figcaption a:hover {
 	font-weight: bold;
 }
 
-
 .project-image{
 	margin: 0 auto;
 	padding: 50px 0 30px 0;
@@ -191,71 +177,16 @@ figcaption a:hover {
 }
 
 
-/****************************************************************************************/
-/* MOBILE SETTINGS */
-@media(max-width:480px)
-{
-	.tile-long{
-		width: auto !important;
-		height: auto !important
-	}
-	.tile{
-		width: auto !important
-	}	
-	
-
-
-}
-
-
-@media (min-width: 481px) and (max-width:980px)
-{
-		.tile-long{
-		width: auto !important;
-		height: auto !important
-	}
-	.tile{
-		width: auto !important
-	}	
-	
-
-
-	
-
-}
-
-
+/* PORTFOLIO MOBILE-FRIENDLY */
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
-  
-  	.tile-long{
-		width: auto !important;
-		height: auto !important
-	}
-	.tile{
-		width: auto !important
-	}	
-	
-
-
 }
  
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
   /* Styles */
-  
-  	.tile-long{
-		width: auto !important;
-		height: auto !important
-	}
-	.tile{
-		width: auto !important
-	}	
-	
-
-
 }
  
 /* Smartphones (portrait) ----------- */
@@ -292,5 +223,3 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
 @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
   /* Styles */
 }
-
-
