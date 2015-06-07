@@ -334,35 +334,50 @@ figcaption a:hover {
 .fa-times-circle-o {
     color: #333;
 }
+ 
 /* PORTFOLIO MOBILE-FRIENDLY */
 /* Smartphones (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-    
-    .tile {
-        width: 100%;
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  .tile{
+        width: 90%;
         height: auto;
-    }
+  }
+ 
+    .tile-long{
+        width: 90%;
+        height: auto;
+  }
 }
+ 
 /* iPads (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Styles */
-    
-    .tile {
-        width: 100%;
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+    .tile{
+        width: 80%;
         height: auto;
-    }
+  }
+ 
+  .tile-long{
+        width: 80%;
+        height: auto;
+  }
+ 
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-    /* Styles */
-    
-    .tile {
-        width: 100%;
+ 
+ 
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
+  /* Styles */
+    .tile{
+        width: 70%;
         height: auto;
-    }
+  }
+ 
+    .tile-long{
+        width: 70%;
+        height: auto;
+  }
 }
 /*** NAVBAR ***/
 
